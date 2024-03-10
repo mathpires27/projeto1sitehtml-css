@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./contato.css"/>
+</head>
+<body>
+    <header >
+        <img id="logo" src="./logo.jpg" />
+        <nav>
+            <ul>
+                <a href="./index.html">
+                    <li>Home</li>
+                </a>
+                <a href="./contato.html">
+                    <li>Contato</li>
+                </a>
+                <a href="./Personagens.html">
+                    <li>Personagens Universo 7</li>
+                </a>
+                <a href="./comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div id="banner"> 
+        <form name="meu_form">
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nomeid" placeholder="Digite seu nome" required="required" name="nome" />
+    
+            <label for="fone">Fone</label>
+            <input type="tel" id="foneid" placeholder="(xx) xxxx-xxxx" name="fone" />
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Digite seu email" name="email" />
+        
+            <label for="Entreemcontato">Comente</label>
+            <textarea placeholder="Entre em contato"></textarea>
+          
+            <input type="submit" class="enviar" onclick="Enviar()" value="Enviar" />
+          </form>
+        
+    </div>
+
+
+      <footer>
+          <nav class="footer-navegation">
+              <ul class="footer-list">
+                  <a href="./index.html">
+                      <li>Home</li>
+                  </a>
+                  <a href="./contato.html">
+                      <li>Contato</li>
+                  </a>
+                  <a href="./Personagens.html">
+                      <li>Personagens Universo 7</li>
+                  </a>
+                  <a href="./comentarios.html">
+                      <li>Comentários</li>
+                  </a>
+              </ul>
+          </nav>
+          <img style="object-fit: contain;" id="logo" src="./logo.jpg"/>
+          <span>Todos os direitos Reservados ©</span>
+          <span>Desenvolvido por: Matheus Mendonça</span>
+      </footer>
+</body>
+</html>
